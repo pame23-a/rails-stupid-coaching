@@ -13,3 +13,29 @@
  *= require_tree .
  *= require_self
  */
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+.container {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+form {
+  display: flex;
+}
+input[type="text"] {
+  margin-right: 10px;
+  flex-grow: 1;
+}
+
+.response {
+  font-style: italic;
+}
+
+.coach-answer{
+  background-color: rgb(245, 239, 192);
+  padding: 10px;
+  margin : 20px;
+}
